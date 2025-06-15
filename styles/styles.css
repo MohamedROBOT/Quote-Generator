@@ -1,0 +1,41 @@
+
+body {
+  background-color: #f4f7ff;
+  color: #2e2e48;
+  
+}
+
+.heading {
+  margin-block: 3.35rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+p {
+  margin-block: 2.1875rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.1875rem;
+}
+
+.generator {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  border: none;
+  padding: .75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: .75rem;
+  cursor: pointer;
+  box-shadow: 0 .25rem .9375rem rgba(166, 119, 227, 0.4);
+  transition: all 0.3s ease;
+}
+
+.generator:hover {
+  box-shadow: 0 .375rem 1.5625rem rgba(166, 119, 227, 0.7);
+  transform: translateY(-0.125rem);
+}
+
+.generator:active {
+  transform: scale(0.50);
+}
